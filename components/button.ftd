@@ -1,0 +1,171 @@
+;; -- import: dependencies...
+
+;; --------------------------------------------------------------
+;; --------------------------------------------------------------
+
+;; ********** Button Component **********
+
+-- component primary:
+string title:
+string size:
+boolean isNewTab: false
+optional string link:
+
+-- ftd.row: 
+padding-left.px: 20
+padding-top.px: 50
+
+-- ftd.text: $primary.title
+if: {primary.size == "small"}
+role: $inherited.types.label-large
+open-in-new-tab: $primary.isNewTab
+link: $primary.link
+color: white
+background.solid: teal
+border-color: teal
+border-width.px: 2
+border-radius.px: 5
+padding-horizontal.px: 12
+padding-vertical.px: 6
+
+-- ftd.text: $primary.title
+if: {primary.size == "medium"}
+role: $inherited.types.label-large
+open-in-new-tab: $primary.isNewTab
+link: $primary.link
+color: white
+background.solid: teal
+border-color: teal
+border-width.px: 2
+border-radius.px: 5
+padding-horizontal.px: 20
+padding-vertical.px: 10
+
+-- ftd.text: $primary.title
+if: {primary.size == "large"}
+role: $inherited.types.label-large
+open-in-new-tab: $primary.isNewTab
+link: $primary.link
+color: white
+background.solid: teal
+border-color: teal
+border-width.px: 2
+border-radius.px: 5
+padding-horizontal.px: 28
+padding-vertical.px: 14
+
+-- end: ftd.row
+
+-- end: primary
+
+;; --------------------------------------------------------------
+;; --------------------------------------------------------------
+
+-- component secondary:
+string title:
+string size:
+boolean isNewTab: false
+optional string link:
+
+-- ftd.row: 
+padding-left.px: 20
+padding-top.px: 50
+
+-- ftd.text: $secondary.title
+if: {secondary.size == "small"}
+role: $inherited.types.label-large
+open-in-new-tab: $secondary.isNewTab
+link: $secondary.link
+color: teal
+background.solid: white
+border-color: teal
+border-width.px: 2
+border-radius.px: 5
+padding-horizontal.px: 12
+padding-vertical.px: 6
+
+-- ftd.text: $secondary.title
+if: {secondary.size == "medium"}
+role: $inherited.types.label-large
+open-in-new-tab: $secondary.isNewTab
+link: $secondary.link
+color: teal
+background.solid: white
+border-color: teal
+border-width.px: 2
+border-radius.px: 5
+padding-horizontal.px: 20
+padding-vertical.px: 10
+
+-- ftd.text: $secondary.title
+if: {secondary.size == "large"}
+role: $inherited.types.label-large
+open-in-new-tab: $secondary.isNewTab
+link: $secondary.link
+color: teal
+background.solid: white
+border-color: teal
+border-width.px: 2
+border-radius.px: 5
+padding-horizontal.px: 28
+padding-vertical.px: 14
+
+-- end: ftd.row
+
+-- end: secondary
+
+;; --------------------------------------------------------------
+;; --------------------------------------------------------------
+
+-- component tertiary:
+string title:
+string size:
+boolean isNewTab: false
+optional string link:
+
+-- ftd.row: 
+padding-left.px: 20
+padding-top.px: 50
+
+-- ftd.text: $tertiary.title
+if: {tertiary.size == "small"}
+role: $inherited.types.label-large
+open-in-new-tab: $tertiary.isNewTab
+link: $tertiary.link
+color: teal
+background.solid: white
+border-color: white
+border-width.px: 2
+border-radius.px: 5
+padding-horizontal.px: 12
+padding-vertical.px: 6
+
+-- ftd.text: $tertiary.title
+if: {tertiary.size == "medium"}
+role: $inherited.types.label-large
+open-in-new-tab: $tertiary.isNewTab
+link: $tertiary.link
+color: teal
+background.solid: white
+border-color: white
+border-width.px: 2
+border-radius.px: 5
+padding-horizontal.px: 24
+padding-vertical.px: 8
+
+-- ftd.text: $tertiary.title
+if: {tertiary.size == "large"}
+role: $inherited.types.label-large
+open-in-new-tab: $tertiary.isNewTab
+link: $tertiary.link
+color: teal
+background.solid: white
+border-color: white
+border-width.px: 2
+border-radius.px: 5
+padding-horizontal.px: 20
+padding-vertical.px: 10
+
+-- end: ftd.row
+
+-- end: tertiary
