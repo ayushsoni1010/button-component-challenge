@@ -1,9 +1,18 @@
 -- import: fastn
 
--- fastn.package: <user_name>.github.io/<repo_name>
+-- fastn.package: ayushsoni1010.github.io/button-component-challenge
+favicon: /-/ayushsoni1010.github.io/button-component-challenge/favicon.ico
 
--- fastn.dependency: fifthtry.github.io/doc-site as ds
--- fastn.dependency: fifthtry.github.io/bling as bling
+-- fastn.dependency: fastn-community.github.io/doc-site as doc-site
+-- fastn.dependency: fastn-community.github.io/footer
+-- fastn.dependency: fastn-community.github.io/roboto-typography
 
--- fastn.auto-import: bling/chat as chat
--- fastn.auto-import: ds
+-- fastn.auto-import: ayushsoni1010.github.io/button-component-challenge/FASTN/ds
+-- fastn.auto-import: ayushsoni1010.github.io/button-component-challenge/assets
+-- fastn.auto-import: doc-site
+
+-- fastn.sitemap:
+
+# Home: index.html
+
+- Right Sidebar Sample: /sidebar/
