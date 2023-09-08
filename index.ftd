@@ -1,40 +1,80 @@
--- ds.page: Welcome to doc-site
+;; --------------------------------------------------------------
+;; --------------------------------------------------------------
 
+-- ftd.row: 
+padding-left.px: 100
 
-⚡️ `doc-site` will help you create a beautiful documentation site in no time.
+-- button.primary: 
+title: Sechedule a Meeting
+size: small
+link: https://cal.com/ayushsoni1010/
+isNewTab: true
 
-It provides out-of-the-box documentation features that can be used to create any
-kind of site(personal website, blog, etc).
+-- button.primary:
+title: Sechedule a Meeting
+size: medium
+link: https://cal.com/ayushsoni1010/
+isNewTab: true
 
-[Click here](https://fastn-community.github.io/doc-site/) to read doc-site
-documentation.
+-- button.primary:
+title: Sechedule a Meeting
+size: large
+link: https://cal.com/ayushsoni1010/
+isNewTab: true
 
--- ds.h3: 🚀 Fast Track 
+-- end: ftd.row
 
-Create your first fastn [web-site](https://fastn.com/expander/hello-world/-/build/) 
-project in just 5 minutes!
+;; --------------------------------------------------------------
+;; --------------------------------------------------------------
 
--- ds.h3: 🌟 Whats next?
+-- ftd.row: 
+padding-left.px: 100
 
-Create your first page. 
-[Click here to know more](https://fastn-community.github.io/doc-site/components/page/).
+-- button.secondary: 
+title: Sechedule a Meeting
+size: small
+link: https://cal.com/ayushsoni1010/
+isNewTab: true
 
--- ds.h3: 👀 Want to learn more?
+-- button.secondary:
+title: Sechedule a Meeting
+size: medium
+link: https://cal.com/ayushsoni1010/
+isNewTab: true
 
-Feel free to check [our expander course](https://fastn.com/expander/) or jump
-into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
+-- button.secondary:
+title: Sechedule a Meeting
+size: large
+link: https://cal.com/ayushsoni1010/
+isNewTab: true
 
+-- end: ftd.row
 
--- ds.h3: 🎯 Used by?
+;; --------------------------------------------------------------
+;; --------------------------------------------------------------
 
-Our all documentation sites uses this `doc-site` theme.
+-- ftd.row: 
+padding-left.px: 100
 
-- [fastn.com](https://fastn.com/home/)
-- [FifthTry.com](https://www.fifthtry.com/)
+-- button.tertiary: 
+title: Sechedule a Meeting
+size: small
+link: https://cal.com/ayushsoni1010/
+isNewTab: true
 
--- ds.h2: Learn fastn and become a pro?
+-- button.tertiary:
+title: Sechedule a Meeting
+size: medium
+link: https://cal.com/ayushsoni1010/
+isNewTab: true
 
-You are one click away, just check [our documentation](https://fastn.com/) and 
-dont forget to jump into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
+-- button.tertiary:
+title: Sechedule a Meeting
+size: large
+link: https://cal.com/ayushsoni1010/
+isNewTab: true
 
--- end: ds.page
+-- end: ftd.row
+
+;; --------------------------------------------------------------
+;; --------------------------------------------------------------
