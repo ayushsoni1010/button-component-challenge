@@ -133,9 +133,7 @@ role: $inherited.types.label-large
 open-in-new-tab: $tertiary.isNewTab
 link: $tertiary.link
 color: teal
-background.solid: white
-border-color: white
-border-width.px: 2
+background.solid: NULL
 border-radius.px: 5
 padding-horizontal.px: 12
 padding-vertical.px: 6
@@ -146,9 +144,7 @@ role: $inherited.types.label-large
 open-in-new-tab: $tertiary.isNewTab
 link: $tertiary.link
 color: teal
-background.solid: white
-border-color: white
-border-width.px: 2
+background.solid: NULL
 border-radius.px: 5
 padding-horizontal.px: 24
 padding-vertical.px: 8
@@ -159,9 +155,7 @@ role: $inherited.types.label-large
 open-in-new-tab: $tertiary.isNewTab
 link: $tertiary.link
 color: teal
-background.solid: white
-border-color: white
-border-width.px: 2
+background.solid: NULL
 border-radius.px: 5
 padding-horizontal.px: 20
 padding-vertical.px: 10
